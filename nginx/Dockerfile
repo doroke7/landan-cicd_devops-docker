@@ -1,2 +1,5 @@
 FROM nginx
-COPY usr_share_nginx_html /usr/share/nginx/html
+#COPY nginx/usr/share/nginx/html /usr/share/nginx/html
+COPY test.txt /usr/share/nginx/html
+
+EXPOSE 80
